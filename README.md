@@ -19,9 +19,10 @@ Setup
 ```bash
 
 git clone https://github.com/codelucas/easycomplete
-cd easycomplete
-sudo python setup.py install
 
+cd easycomplete
+
+sudo python setup.py install
 ```
 
 
