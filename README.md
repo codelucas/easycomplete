@@ -10,9 +10,7 @@ The goal is to create a general autocompletion system which a
 broad scope of webapps can use.
 
 This is the first release so the API isn't super user friendly
-but it works. You can tailor your settings with a few params.
-
-Below are examples. 
+but it works. You can tailor your settings with a few params. Below are examples. 
 
 Setup
 =====
@@ -79,4 +77,5 @@ More to come soon! Happy coding!
 
 
 *http://codelucas.com   - Blog*
+
 *http://wintria.com - Startup*
