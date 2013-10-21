@@ -65,5 +65,6 @@ TODO
 More to come soon! Happy coding!
 
 
-*http://codelucas   - Blog
-http://wintria.com - Startup*
+*http://codelucas.com   - Blog*
+
+*http://wintria.com - Startup*
