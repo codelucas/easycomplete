@@ -14,6 +14,17 @@ but it works. You can tailor your settings with a few params.
 
 Below are examples. 
 
+Setup
+=====
+```bash
+
+git clone https://github.com/codelucas/easycomplete
+cd easycomplete
+sudo python setup.py install
+
+```
+
+
 Example usage
 =============
 
@@ -24,7 +35,8 @@ Example usage
 # and push all the results into static json urls to save RAM.
 # automated functionality for this can be added later
 
-map = easycomplete.get_mapper()
+# following line will take 5-15 seconds, but it's a one time thing.
+>>> map = easycomplete.get_mapper()
 
 >>> print map['adam']
 [u'adam levine', u'adam sandler', u'adam carolla', u'adam lambert' ... ] # limited to 10 results
@@ -66,5 +78,4 @@ More to come soon! Happy coding!
 
 
 *http://codelucas.com   - Blog*
-
 *http://wintria.com - Startup*
