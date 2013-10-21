@@ -1,6 +1,5 @@
 easycomplete
 ============
-
 Want to add a dynamic & responsive autocomplete bar
 to your webapp? Easycomplete is here! This is a python module 
 which generates generic autocomplete results set by utilizing 
@@ -13,12 +12,7 @@ broad scope of webapps can use.
 This is the first release so the API isn't super user friendly
 but it works. You can tailor your settings with a few params.
 
-Below are examples. I intend on updating this module frequently.
-One big update I have in mind is to write a wrapper to sync this
-directly with Twitter's frontend typeahead! So users can literally
-generate an autocomplete on their search bars with zero work.
-
-Please feel free to join in!
+Below are examples. 
 
 Example usage
 =============
@@ -42,7 +36,7 @@ map = easycomplete.get_mapper()
 
 >>> map2 = easycomplete.get_mapper()
 >>> map2['how']
-[u'how i met your mother', u'how to tie a tie', u'how to take a screenshot on a mac'
+[u'how i met your mother', u'how to tie a tie', u'how to take a screenshot on a mac', ...]
 
 # We also have a few more setting options. Check the internal get_mapper()'s params!
 ```
@@ -50,6 +44,7 @@ map = easycomplete.get_mapper()
 FAQ
 ===
 Q: My google autocomplete results are out of date!
+
 A: There is a python file called retriever.py which automatically
    updates your google autocomplete. But you will need to do some
    dirtywork yourself for now as the API is still rough for users.
@@ -59,9 +54,8 @@ A: There is a python file called retriever.py which automatically
 
 TODO
 ====
-
 - [ ] Add a fontend wrapper so users can easy sync this python
-      module to twitter's typeahead module
+      module to twitter's typeahead module with ease!
 - [ ] Fix up the retriever.py API so users can
       update their google autocomplete results with ease
 - [ ] Clean this entire repo up
