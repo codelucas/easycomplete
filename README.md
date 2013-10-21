@@ -3,8 +3,8 @@ easycomplete
 Want to add a dynamic & responsive autocomplete bar
 to your webapp? Easycomplete is here! This is a python module 
 which generates generic autocomplete results set by utilizing 
-google's autocomplete along with the english dictionary. 
-Potentially more sources to come in the future!
+google's autocomplete along with the english dictionary. Oh, and
+everything is in unicode!
 
 The goal is to create a general autocompletion system which a
 broad scope of webapps can use.
@@ -43,9 +43,9 @@ map = easycomplete.get_mapper()
 
 FAQ
 ===
-Q: My google autocomplete results are out of date!
+__Q__: My google autocomplete results are out of date!
 
-A: There is a python file called retriever.py which automatically
+__A__: There is a python file called retriever.py which automatically
    updates your google autocomplete. But you will need to do some
    dirtywork yourself for now as the API is still rough for users.
    Read the comments in that file for more directions, I intend on
@@ -65,5 +65,5 @@ TODO
 More to come soon! Happy coding!
 
 
-http://codelucas   - Blog
-http://wintria.com - Startup
+*http://codelucas   - Blog
+http://wintria.com - Startup*
