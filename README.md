@@ -44,11 +44,11 @@ Example usage
 
 # Demo of the firstperson settings
 >>> map1 = easycomplete.get_mapper(firstperson=False)
->>> map1['how']
+>>> print map1['how']
 [u'howards']
 
 >>> map2 = easycomplete.get_mapper()
->>> map2['how']
+>>> print map2['how']
 [u'how i met your mother', u'how to tie a tie', u'how to take a screenshot on a mac', ...]
 
 # We also have a few more setting options. Check the internal get_mapper()'s params!
